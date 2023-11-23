@@ -23,6 +23,10 @@ func cekKualitasBarang(grade string, jalankanBarang func(string) string) (result
 
 }
 
+// func cekKualitasBarang(grade string) {
+// 	jalankanBarang(grade)
+// }
+
 func RecoverPanic() {
 	if r := recover(); r != nil {
 		fmt.Println("Recovered from panic:", r)
@@ -40,4 +44,5 @@ func main() {
 	defer RecoverPanic()
 	runApp := cekKualitasBarang("Sobek", jalankanBarang)
 	fmt.Println(runApp)
+	// cekKualitasBarang("Sobek")
 }
