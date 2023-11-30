@@ -1,0 +1,22 @@
+{
+	"FirstName": "Muhammad",
+	"LastName": "Aditya",
+	"Age": 27,
+	"Hobbies": [
+		"game",
+		"study",
+		"watch movie"
+	],
+	"Address": [
+		{
+		"Region": "Indonesia",
+		"City": "Malang",
+		"Province": "Jawa Timur"
+		},
+		{
+		"Region": "Indonesia",
+		"City": "Surabaya",
+		"Province": "Jawa Timur"
+		}
+	]
+}
