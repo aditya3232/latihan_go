@@ -19,3 +19,7 @@ func FizzBuzz(n int32) {
 		fmt.Println(i)
 	}
 }
+
+func main() {
+	FizzBuzz(15)
+}
